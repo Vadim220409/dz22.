@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.page {
+  display: flex;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.left-page {
+  background-image: url(./img/img.cactus.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 35%;
+  height: 100%;
+}
+
+.right-page {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.info-conteiner {
+  margin-left: 60px;
+}
+
+.conteiner-title {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.conteiner-subtitle {
+  color: gray;
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.conteiner-price {
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.button {
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  padding: 14px 78px;
+  border-radius: 28px;
+  font-size: 24px;
+}
+
+.button:hover {
+  background-color: rgb(27, 27, 27);
+}
